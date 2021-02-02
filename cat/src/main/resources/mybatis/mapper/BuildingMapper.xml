@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hainiu.cat.dao.mapper.BuildingMapper">
+
+    <resultMap id="base_result" type="com.hainiu.cat.dao.model.Building">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="project_id" property="projectId" />
+        <result column="floor_height" property="floorHeight" />
+        <result column="floor_count" property="floorCount" />
+        <result column="paths" property="paths" />
+        <result column="status" property="status" />
+    </resultMap>
+
+    <sql id="base_column">
+         id, name, project_id, floor_height, floor_count, paths, status
+    </sql>
+
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hainiu.cat.dao.mapper.ProjectMapper">
+
+    <resultMap id="base_result" type="com.hainiu.cat.dao.model.Project">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="lng" property="lng" />
+        <result column="lat" property="lat" />
+        <result column="status" property="status" />
+    </resultMap>
+
+    <sql id="base_column">
+         id, name, lng, lat, status
+    </sql>
+
+</mapper>
