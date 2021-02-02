@@ -1,13 +1,9 @@
 package com.hainiu.cat.web.codeStudy.thread.future;
 
 import com.google.common.collect.Lists;
-import com.hainiu.cat.web.codeStudy.thread.executor.MyRunnableOne;
 
-import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.*;
-
-import static sun.misc.PostVMInitHook.run;
 
 /**
  * create by biji.zhao on 2020/12/19
